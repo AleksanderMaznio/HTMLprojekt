@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: #050508; 
+    padding: 20px 0;
+    border-bottom: 2px solid #d4af37; 
+
+    width: 100%; 
+}
+.header-zawartosc{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav a {
+    text-decoration: none;
+    color: #d4af37;
+    font-family: 'Lora', serif;
+    transition: color 0.3s ease; 
+}
+
+nav a:hover {
+    color: #e0e0e0   ;         
+}
+header h1{
+    font-family: 'Cinzel',serif;
+}
+body{background-color: rgb(37, 11, 61);
+color: #d4af37;
+font-family: 'Lora', serif;
+background-image: url(gwiazdki.png) ;
+background-repeat: repeat;
+background-attachment: fixed;
+background-size: auto;
+background-blend-mode:overlay;
+
+}
+.karta-kontener {
+    display: flex;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    gap: 50px; 
+}
+
+
+.karta-obrazek {
+    flex: 1;
+    max-width: 400px;
+}
+
+.karta-obrazek img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    border: 2px solid #d4af37;
+}
+
+
+.karta-opis {
+    flex: 2;
+}
+
+.wstep {
+    font-style: italic;
+    font-size: 1.2em;
+    border-bottom: 1px solid #d4af37;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+.sekcja-tekstu {
+    margin-bottom: 30px;
+}
+
+.sekcja-tekstu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sekcja-tekstu li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.sekcja-tekstu li::before {
+    content: "✦";
+    color: #d4af37;
+    position: absolute;
+    left: 0;
+}
+footer {
+    background-color: #1a1a1a; 
+    color: #d4af37; 
+    padding: 60px 20px 20px;
+    margin-top: 50px;
+    font-family: 'Lora', serif;
+    border-top: 1px solid #d4af37; 
+}
+
+.footer-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+}
+
+.footer-section h3, .footer-section h4 {
+    font-family: 'Cinzel', serif;
+    color: #d4af37; 
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.footer-section p {
+    line-height: 1.6;
+    font-size: 0.9rem;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color:#d4af37;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #e0e0e0  ;
+}
+
+@media (max-width: 768px) {
+    .karta-kontener {
+        flex-direction: column;
+        align-items: center;
+    }
+}

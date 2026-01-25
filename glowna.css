@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: #050508; 
+    padding: 20px 0;
+    border-bottom: 2px solid #d4af37; 
+
+    width: 100%; 
+}
+.header-zawartosc{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav a {
+    text-decoration: none;
+    color: #d4af37;
+    font-family: 'Lora', serif;
+    transition: color 0.3s ease; 
+}
+
+nav a:hover {
+    color: #e0e0e0   ;         
+}
+header h1{
+    font-family: 'Cinzel',serif;
+}
+body{background-color: rgb(37, 11, 61);
+color: #d4af37;
+font-family: 'Lora', serif;
+background-image: url(gwiazdki.png) ;
+background-repeat: repeat;
+background-attachment: fixed;
+background-size: auto;
+background-blend-mode:overlay;
+
+}
+
+main section:first-of-type {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('gwiazdki.png'); 
+    background-size: cover;
+    border-bottom: 2px solid #d4af37;
+}
+
+
+.przycisk-karta{
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: transparent;
+    color: #d4af37;
+    border: 1px solid #d4af37;
+    font-family: 'Cinzel', serif;
+    text-decoration: none;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.przycisk-karta:hover {
+    background-color: #d4af37;
+    color: #1a1a1a;
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.5);
+}
+
+
+.filary {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    text-align: center;
+    gap: 20px;
+}
+
+.filar span {
+    font-size: 2em;
+    color: #d4af37;
+}
+
+.filar h4 {
+    font-family: 'Cinzel', serif;
+    margin: 10px 0;
+}
+@keyframes pojawienieSie {
+    from {
+        opacity: 0;
+        transform: translateY(20px) scale(0.98);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+#wyswietl {
+    animation: pojawienieSie 0.8s ease-out forwards;
+    max-width: 900px;
+    height: auto;
+    min-height: 600px;
+    margin: 0 auto 30px auto;
+    padding: 20px;
+    background: rgba(5, 5, 8, 0.6); 
+    border: 1px solid #d4af37;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+#NazwaEng {
+    font-family: 'Cinzel', serif;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    text-shadow: 0 0 10px rgba(212, 175, 55, 0.3);
+    border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+    padding-bottom: 10px;
+}
+
+
+.karta-layout {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: flex-start;
+    text-align: left; 
+}
+
+
+.karta-foto {
+    flex: 0 0 250px; 
+}
+
+
+#obrazekKarty {
+    width: 100%;
+    height: auto;
+    border: 2px solid #d4af37;
+    border-radius: 10px;
+    transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7);
+}
+
+.karta-dane {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.karta-dane p {
+    line-height: 1.6;
+    font-size: 1.1em;
+}
+
+.karta-dane strong {
+    font-family: 'Cinzel', serif;
+    color: #e0e0e0;
+    letter-spacing: 1px;
+    display: block; 
+    margin-bottom: 5px;
+}
+
+
+@media (max-width: 768px) {
+   @media (max-width: 768px) {
+    .karta-layout {
+        flex-direction: column; 
+        align-items: center;    
+        text-align: center;     
+        gap: 20px;
+    }
+
+    .karta-foto {
+        flex: 0 0 auto;
+        width: 100%;            
+        display: flex;          
+        justify-content: center; 
+        margin: 0 auto;        
+    }
+
+    #obrazekKarty {
+        width: 200px;          
+        max-width: 80%;         
+        height: auto;
+        margin: 0 auto;         
+        display: block;
+    }
+
+    .karta-dane {
+        width: 100%;           
+        padding: 0 10px;        
+    }
+}
+}
+footer {
+    background-color: #1a1a1a; 
+    color: #d4af37; 
+    padding: 60px 20px 20px;
+    margin-top: 50px;
+    font-family: 'Lora', serif;
+    border-top: 1px solid #d4af37; 
+}
+
+.footer-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+}
+
+.footer-section h3, .footer-section h4 {
+    font-family: 'Cinzel', serif;
+    color: #d4af37; 
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.footer-section p {
+    line-height: 1.6;
+    font-size: 0.9rem;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color:#d4af37;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #e0e0e0  ;
+}
+
