@@ -1,0 +1,289 @@
+ [
+  {
+    "id": 0,
+    "englishName": "The Fool",
+    "polishName": "Głupiec",
+    "subTitle": "Początek Podróży",
+    "image": "../karty/TheFool0.jpg",
+    "wstep": "Karta Głupiec oznaczona numerem 0 to symbol nieskończonego potencjału i czystej karty, od której zaczyna się każda wielka podróż.",
+    "symbolika": [
+      {"label": "Biała róża", "text": "Czystość intencji i niewinność."},
+      {"label": "Przepaść", "text": "Skok w nieznane i zaufanie do losu."},
+      {"label": "Pies", "text": "Instynkt i lojalność wobec samego siebie."}
+    ],
+    "znaczenie": "Zachęca do spontaniczności i ryzyka. W pozycji prostej oznacza nowe szanse, w odwróconej – lekkomyślność."
+  },
+  {
+    "id": 1,
+    "englishName": "The Magician",
+    "polishName": "Mag",
+    "subTitle": "Mistrz Manifestacji",
+    "image": "../karty/TheMagician1.jpg",
+    "wstep": "Mag reprezentuje przejście od potencjału do realnego działania, korzystając z dostępnych narzędzi i siły woli.",
+    "symbolika": [
+      {"label": "Lemniskata", "text": "Nieskończony potencjał umysłu."},
+      {"label": "Atrybuty na stole", "text": "Panowanie nad światem materialnym przez cztery żywioły."}
+    ],
+    "znaczenie": "Symbolizuje sprawczość i koncentrację. W pozycji prostej oznacza sukces, w odwróconej – manipulację."
+  },
+  {
+    "id": 2,
+    "englishName": "The High Priestess",
+    "polishName": "Kapłanka",
+    "subTitle": "Strażniczka Tajemnic",
+    "image": "../karty/TheHighPriestess2.jpg",
+    "wstep": "Kapłanka uosabia intuicję, podświadomość i wiedzę, która nie jest dostępna dla zmysłów.",
+    "symbolika": [
+      {"label": "Kolumny B i J", "text": "Dualizm świata: światło i mrok, świadomość i podświadomość."},
+      {"label": "Księżyc u stóp", "text": "Panowanie nad emocjami i cyklami natury."}
+    ],
+    "znaczenie": "Wzywa do słuchania wewnętrznego głosu. Prosta oznacza intuicję, odwrócona – ignorowanie znaków."
+  },
+  {
+    "id": 3,
+    "englishName": "The Empress",
+    "polishName": "Cesarzowa",
+    "subTitle": "Matka Natura",
+    "image": "../karty/TheEmpress3.jpg",
+    "wstep": "Cesarzowa to archetyp płodności, obfitości i piękna, celebrujący życie we wszystkich jego formach.",
+    "symbolika": [
+      {"label": "Zboże", "text": "Symbol obfitych żniw i nagrody za trud."},
+      {"label": "Gwiazdy w koronie", "text": "Dwanaście znaków zodiaku i panowanie nad czasem."}
+    ],
+    "znaczenie": "Oznacza rozwój i opiekę. Prosta to kreatywność i dostatek, odwrócona – blokady twórcze."
+  },
+  {
+    "id": 4,
+    "englishName": "The Emperor",
+    "polishName": "Cesarz",
+    "subTitle": "Fundament Porządku",
+    "image": "../karty/TheEmperor4.jpg",
+    "wstep": "Cesarz reprezentuje autorytet, strukturę i stabilność, wprowadzając ład w chaos rzeczywistości.",
+    "symbolika": [
+      {"label": "Kamienny tron", "text": "Niewzruszona władza i surowość zasad."},
+      {"label": "Baranie głowy", "text": "Determinacja i energia znaku Barana."}
+    ],
+    "znaczenie": "Wskazuje na potrzebę dyscypliny. Prosta to ochrona i stabilizacja, odwrócona – tyrania."
+  },
+  {
+    "id": 5,
+    "englishName": "The Hierophant",
+    "polishName": "Papież",
+    "subTitle": "Głos Tradycji",
+    "image": "../karty/TheHierophant5.jpg",
+    "wstep": "Hierofant pośredniczy między tym co boskie, a tym co ziemskie, kładąc nacisk na naukę i rytuał.",
+    "symbolika": [
+      {"label": "Klucze", "text": "Dostęp do wiedzy duchowej i ziemskich struktur."},
+      {"label": "Potrójna korona", "text": "Władza nad światem fizycznym, umysłowym i duchowym."}
+    ],
+    "znaczenie": "Odnosi się do instytucji i zasad. Prosta to przynależność, odwrócona – bunt przeciw normom."
+  },
+  {
+    "id": 6,
+    "englishName": "The Lovers",
+    "polishName": "Kochankowie",
+    "subTitle": "Harmonia Wyboru",
+    "image": "../karty/TheLovers6.jpg",
+    "wstep": "Karta ta mówi nie tylko o miłości, ale przede wszystkim o kluczowych życiowych wyborach i wartościach.",
+    "symbolika": [
+      {"label": "Anioł Rafael", "text": "Symbol uzdrowienia i boskiego błogosławieństwa."},
+      {"label": "Drzewo Poznania", "text": "Wybór między pokusą a drogą duchową."}
+    ],
+    "znaczenie": "Symbolizuje partnerstwo i decyzje serca. Prosta to zgoda, odwrócona – brak równowagi."
+  },
+  {
+    "id": 7,
+    "englishName": "The Chariot",
+    "polishName": "Rydwan",
+    "subTitle": "Triumf Woli",
+    "image": "../karty/TheChariot7.jpg",
+    "wstep": "Rydwan to symbol zwycięstwa osiągniętego dzięki determinacji, kontroli i skupieniu na celu.",
+    "symbolika": [
+      {"label": "Sfinksy", "text": "Przeciwstawne siły, które muszą być prowadzone wspólnie."},
+      {"label": "Gwiezdna baldachim", "text": "Wsparcie niebios w ziemskich dążeniach."}
+    ],
+    "znaczenie": "Mówi o pokonywaniu przeszkód. Prosta to sukces przez działanie, odwrócona – utrata kontroli."
+  },
+  {
+    "id": 8,
+    "englishName": "Strength",
+    "polishName": "Siła",
+    "subTitle": "Wewnętrzna Odwaga",
+    "image": "../karty/Strength8.jpg",
+    "wstep": "Siła ukazuje, że prawdziwa moc płynie z łagodności, cierpliwości i opanowania własnych instynktów.",
+    "symbolika": [
+      {"label": "Lew", "text": "Ludzkie żądze i emocje, które należy oswoić."},
+      {"label": "Biała suknia", "text": "Czystość duszy panującej nad materią."}
+    ],
+    "znaczenie": "Zachęca do współczucia. Prosta to panowanie nad sobą, odwrócona – brak pewności siebie."
+  },
+  {
+    "id": 9,
+    "englishName": "The Hermit",
+    "polishName": "Pustelnik",
+    "subTitle": "Ścieżka Wewnątrz",
+    "image": "../karty/TheHermit9.jpg",
+    "wstep": "Pustelnik wybiera samotność, aby odnaleźć prawdę, która jest ukryta przed zgiełkiem świata.",
+    "symbolika": [
+      {"label": "Lampa", "text": "Światło wiedzy prowadzące przez ciemność."},
+      {"label": "Laska", "text": "Oparcie w mądrości i doświadczeniu."}
+    ],
+    "znaczenie": "Wskazuje na czas introspekcji. Prosta to poszukiwanie prawdy, odwrócona – izolacja."
+  },
+  {
+    "id": 10,
+    "englishName": "Wheel of Fortune",
+    "polishName": "Koło Fortuny",
+    "subTitle": "Cykle Losu",
+    "image": "../karty/TheWheelOfFortune10.jpg",
+    "wstep": "Koło przypomina, że życie jest zmienne, a każdy koniec jest jednocześnie nowym początkiem.",
+    "symbolika": [
+      {"label": "Sfinks na szczycie", "text": "Równowaga w obliczu ciągłych zmian."},
+      {"label": "Litery TARO/ROTA", "text": "Wieczne koło prawa i losu."}
+    ],
+    "znaczenie": "Oznacza przełomowy moment. Prosta to szczęśliwy traf, odwrócona – pechowy obieg zdarzeń."
+  },
+  {
+    "id": 11,
+    "englishName": "Justice",
+    "polishName": "Sprawiedliwość",
+    "subTitle": "Bilans Prawdy",
+    "image": "../karty/Justice11.jpg",
+    "wstep": "Sprawiedliwość domaga się obiektywizmu i wzięcia pełnej odpowiedzialności za własne czyny.",
+    "symbolika": [
+      {"label": "Waga", "text": "Równowaga między logiką a intuicją."},
+      {"label": "Miecz", "text": "Zdolność do odcięcia tego, co fałszywe."}
+    ],
+    "znaczenie": "Mówi o konsekwencjach. Prosta to uczciwość i werdykt, odwrócona – stronniczość."
+  },
+  {
+    "id": 12,
+    "englishName": "The Hanged Man",
+    "polishName": "Wisielec",
+    "subTitle": "Nowa Perspektywa",
+    "image": "../karty/TheHangedMan12.jpg",
+    "wstep": "Wisielec uczy, że czasem największy postęp następuje wtedy, gdy przestajemy działać i zmieniamy punkt widzenia.",
+    "symbolika": [
+      {"label": "Aureola", "text": "Oświecenie płynące z dobrowolnego zatrzymania."},
+      {"label": "Nogi w kształcie cyfry 4", "text": "Uwięzienie w materii przy wolnym duchu."}
+    ],
+    "znaczenie": "Symbolizuje poświęcenie. Prosta to cierpliwość, odwrócona – bezproduktywny opór."
+  },
+  {
+    "id": 13,
+    "englishName": "Death",
+    "polishName": "Śmierć",
+    "subTitle": "Głęboka Transformacja",
+    "image": "../karty/Death13.jpg",
+    "wstep": "Karta ta rzadko oznacza fizyczną śmierć; jest symbolem koniecznego zakończenia, które robi miejsce na nowe.",
+    "symbolika": [
+      {"label": "Biały koń", "text": "Czystość procesu transformacji."},
+      {"label": "Wschodzące słońce", "text": "Nadzieja na odrodzenie po stracie."}
+    ],
+    "znaczenie": "Oznacza radykalną zmianę. Prosta to odcięcie przeszłości, odwrócona – lęk przed nowym."
+  },
+  {
+    "id": 14,
+    "englishName": "Temperance",
+    "polishName": "Umiarkowanie",
+    "subTitle": "Alchemia Balansu",
+    "image": "../karty/Temperence14.jpg",
+    "wstep": "Umiarkowanie uczy sztuki łączenia przeciwieństw i zachowania spokoju w dynamicznym świecie.",
+    "symbolika": [
+      {"label": "Przelewanie wody", "text": "Harmonijny przepływ energii między skrajnościami."},
+      {"label": "Noga na lądzie i w wodzie", "text": "Równowaga między świadomością a emocjami."}
+    ],
+    "znaczenie": "Wskazuje na cierpliwość. Prosta to uzdrowienie, odwrócona – brak umiaru."
+  },
+  {
+    "id": 15,
+    "englishName": "The Devil",
+    "polishName": "Diabeł",
+    "subTitle": "Cienie Umysłu",
+    "image": "../karty/TheDevil15.jpg",
+    "wstep": "Diabeł reprezentuje zniewolenie przez instynkty, nałogi lub błędne przekonania, które nas ograniczają.",
+    "symbolika": [
+      {"label": "Luźne łańcuchy", "text": "Niewola, z której można wyjść w każdej chwili."},
+      {"label": "Odwrócony pentagram", "text": "Przewaga materii nad duchem."}
+    ],
+    "znaczenie": "Ostrzega przed obsesją. Prosta to uwięzienie w nałogu, odwrócona – wyzwolenie."
+  },
+  {
+    "id": 16,
+    "englishName": "The Tower",
+    "polishName": "Wieża",
+    "subTitle": "Nagłe Przebudzenie",
+    "image": "../karty/TheTower16.jpg",
+    "wstep": "Wieża przynosi gwałtowny rozpad wszystkiego, co zostało zbudowane na fałszywych fundamentach.",
+    "symbolika": [
+      {"label": "Piorun", "text": "Nagłe uderzenie prawdy i oświecenia."},
+      {"label": "Spadająca korona", "text": "Upadek ego i fałszywych ambicji."}
+    ],
+    "znaczenie": "Mówi o kryzysie oczyszczającym. Prosta to szok, odwrócona – uniknięcie katastrofy."
+  },
+  {
+    "id": 17,
+    "englishName": "The Star",
+    "polishName": "Gwiazda",
+    "subTitle": "Światło Nadziei",
+    "image": "../karty/TheStar17.jpg",
+    "wstep": "Po burzy Wieży, Gwiazda przynosi spokój, odnowę i wiarę w lepszą przyszłość.",
+    "symbolika": [
+      {"label": "Wylewanie wody", "text": "Dzielenie się zasobami z otoczeniem i naturą."},
+      {"label": "Osiem gwiazd", "text": "Kosmiczny porządek i inspiracja."}
+    ],
+    "znaczenie": "Daje optymizm. Prosta to regeneracja i duchowe wsparcie, odwrócona – pesymizm."
+  },
+  {
+    "id": 18,
+    "englishName": "The Moon",
+    "polishName": "Księżyc",
+    "subTitle": "Labirynt Iluzji",
+    "image": "../karty/TheMoon18.jpg",
+    "wstep": "Księżyc prowadzi nas przez krainę snów, lęków i intuicji, gdzie nie wszystko jest takie, jakim się wydaje.",
+    "symbolika": [
+      {"label": "Dwa psy/wilki", "text": "Oswojona i dzika natura człowieka wyjąca do księżyca."},
+      {"label": "Rak", "text": "Lęki wynurzające się z głębin podświadomości."}
+    ],
+    "znaczenie": "Ostrzega przed oszustwem. Prosta to głęboka intuicja, odwrócona – odkrycie prawdy."
+  },
+  {
+    "id": 19,
+    "englishName": "The Sun",
+    "polishName": "Słońce",
+    "subTitle": "Pełnia Radości",
+    "image": "../karty/TheSun19.jpg",
+    "wstep": "Słońce to najjaśniejsza karta w talii, oznaczająca sukces, witalność i absolutną jasność sytuacji.",
+    "symbolika": [
+      {"label": "Nagie dziecko", "text": "Absolutna szczerość, niewinność i wolność."},
+      {"label": "Słoneczniki", "text": "Związek z życiodajną energią słońca."}
+    ],
+    "znaczenie": "Obiecuje sukces. Prosta to optymizm i zwycięstwo, odwrócona – chwilowe zachmurzenie."
+  },
+  {
+    "id": 20,
+    "englishName": "Judgement",
+    "polishName": "Sąd Ostateczny",
+    "subTitle": "Powołanie Duszy",
+    "image": "../karty/Judgement20.jpg",
+    "wstep": "Sąd to moment rozliczenia z przeszłością i usłyszenia wewnętrznego wezwania do wyższego celu.",
+    "symbolika": [
+      {"label": "Trąba anielska", "text": "Głos sumienia i przebudzenie świadomości."},
+      {"label": "Ludzie z grobów", "text": "Porzucenie starego życia dla nowej formy bytu."}
+    ],
+    "znaczenie": "Mówi o odrodzeniu. Prosta to ważne powołanie, odwrócona – poczucie winy."
+  },
+  {
+    "id": 21,
+    "englishName": "The World",
+    "polishName": "Świat",
+    "subTitle": "Dopełnienie Cyklu",
+    "image": "../karty/TheWorld21.jpg",
+    "wstep": "Świat to karta triumfu, integracji i spełnienia. Oznacza radosne zakończenie podróży Głupca.",
+    "symbolika": [
+      {"label": "Wieniec", "text": "Osiągnięcie celu i ochrona przez uniwersalne prawa."},
+      {"label": "Cztery istoty w rogach", "text": "Stabilność i harmonia całego wszechświata."}
+    ],
+    "znaczenie": "Oznacza globalne sukcesy. Prosta to spełnienie marzeń, odwrócona – brak domknięcia spraw."
+  }
+]

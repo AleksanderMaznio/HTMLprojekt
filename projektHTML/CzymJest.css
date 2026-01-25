@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: #050508; 
+    padding: 20px 0;
+    border-bottom: 2px solid #d4af37; 
+
+    width: 100%; 
+}
+.header-zawartosc{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav a {
+    text-decoration: none;
+    color: #d4af37;
+    font-family: 'Lora', serif;
+    transition: color 0.3s ease; 
+}
+
+nav a:hover {
+    color: #e0e0e0   ;         
+}
+header h1{
+    font-family: 'Cinzel',serif;
+}
+body{background-color: rgb(37, 11, 61);
+color: #d4af37;
+font-family: 'Lora', serif;
+background-image: url(gwiazdki.png) ;
+background-repeat: repeat;
+background-attachment: fixed;
+background-size: auto;
+background-blend-mode:overlay;
+
+}
+.content-wrapper {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.info-box {
+    background: rgba(0,0,0,0.7); 
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border-left: 4px solid #d4af37; 
+}
+
+.info-box h2, .info-box h3 {
+    margin-top: 0;
+}
+
+
+.deck-structure {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.arkana-box {
+    flex: 1;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+
+.history ul {
+    list-style: none;
+    padding: 0;
+}
+
+.history li {
+    margin-bottom: 15px;
+    padding-left: 30px;
+    position: relative;
+}
+
+.history li::before {
+    content: "◈";
+    color: #d4af37;
+    position: absolute;
+    left: 0;
+}
+
+
+@media (max-width: 720px) {
+    .deck-structure {
+        flex-direction: column;
+    }
+}
