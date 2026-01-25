@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="glowna.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lora:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <title>Tarot</title>
+</head>
+<body>
+    <script src="Karty.js"></script>
+    <script src="Losowanie.js"></script>
+     <header>
+        <div class="header-zawartosc">
+        <h1>Arkana Tarota</h1>
+        <nav>
+            <ul>
+                <li><a href="Katalog.html">Katalog kart</a></li>
+                <li><a href="CzymJest.html">Czym jest tarot</a></li>
+                
+            </ul>
+        </nav>
+    </div>
+    </header>
+    <main>
+        <section class="karta-dnia">
+    <div class="karta-dnia-tekst">
+        <h3>Twoja Karta na Dziś</h3>
+         <p id="start">Zatrzymaj się na chwilę, weź głęboki oddech i sprawdź, jaka energia towarzyszy Ci dzisiaj.</p>
+       <div id="wyswietl" style="display: none;">
+    <h3 id="NazwaEng"></h3>
+
+    <div class="karta-layout">
+        
+        <div class="karta-foto">
+            <img id="obrazek" src="">
+            
+        </div>
+
+        <div class="karta-dane">
+            <p id="opis"></p>
+            <p id="znaczenie"></p>
+            <p id="tlumaczenie"></p>
+        </div>
+    </div>
+</div>
+        <button class="przycisk-karta" onclick="losowanie()">Wylosuj kartę dnia</button>
+    </div>
+</section>
+       <section class="filary">
+    <div class="filar">
+        <span>✦</span>
+        <h4>Refleksja</h4>
+        <p>Zrozum głębszy sens codziennych wydarzeń.</p>
+    </div>
+    <div class="filar">
+        <span>✦</span>
+        <h4>Inspiracja</h4>
+        <p>Znajdź nową drogę w trudnych momentach.</p>
+    </div>
+    <div class="filar">
+        <span>✦</span>
+        <h4>Intuicja</h4>
+        <p>Naucz się słuchać swojego wewnętrznego głosu.</p>
+    </div>
+</section>
+
+    </main>
+    <footer>
+    <div class="footer-container">
+        <div class="footer-section about">
+            <h3>Arkana Tarota</h3>
+            <p>Twoje codzienne źródło inspiracji i wglądu w energię wszechświata. Odkrywaj tajemnice kart i słuchaj swojej intuicji.</p>
+            <div class="social-icons">
+                <span>✦</span>
+            </div>
+        </div>
+
+        <div class="footer-section links">
+            <h4>Menu</h4>
+            <ul>
+                <li><a href="Katalog.html">Katalog kart</a></li>
+                <li><a href="CzymJest.html">Czym jest tarot</a></li>
+                <li><a href="#">Polityka prywatności</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section contact">
+            <h4>Kontakt</h4>
+            <p>E-mail: am137137@stud.ur.edu.pl</p>
+            <p>Śledź nas, aby otrzymywać powiadomienia o nowych rozkładach.</p>
+        </div>
+    </div>
+
+   
+</footer>
+</body>
+</html>
