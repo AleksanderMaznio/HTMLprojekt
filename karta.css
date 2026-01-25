@@ -16,7 +16,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 40px;
+    padding: 0 20px;
 
 }
 nav ul{
@@ -38,6 +38,7 @@ nav a:hover {
 }
 header h1{
     font-family: 'Cinzel',serif;
+    font-size: 1.5rem;
 }
 body{background-color: rgb(37, 11, 61);
 color: #d4af37;
@@ -154,8 +155,38 @@ footer {
 }
 
 @media (max-width: 768px) {
+   .header-zawartosc {
+        flex-direction: column; 
+        gap: 15px;
+        padding: 10px 15px;
+        text-align: center;
+    }
+
+    nav ul {
+        gap: 15px; 
+        flex-wrap: wrap; 
+        justify-content: center;
+    }
+
     .karta-kontener {
         flex-direction: column;
         align-items: center;
+        padding: 15px;
+        margin: 20px auto;
+        gap: 20px;
+    }
+
+    .karta-obrazek {
+        max-width: 90%; 
+    }
+
+    .wstep {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr; 
+        text-align: center;
     }
 }
