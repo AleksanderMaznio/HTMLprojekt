@@ -1,43 +1,43 @@
-function losowanie(){
-    var karta = tarotData[Math.floor(Math.random()*tarotData.length)];
-    var czyOdwrocona =Math.random()>0.5;
-    var wynik={
+function losowanie() {
+    if (typeof tarotData === 'undefined') {
+        console.error("Błąd: Tablica tarotData nie została załadowana!");
+        return;
+    }
+    const karta = tarotData[Math.floor(Math.random() * tarotData.length)];
+    const czyOdwrocona = Math.random() > 0.5;
+    const wynik = {
         wylosowanaKarta: karta,
         odwrocona: czyOdwrocona
     };
-    wyswietlKarte(wynik)
+    wyswietlKarte(wynik);
 }
 
-function wyswietlKarte(wynik){
-
-    var karta=wynik.wylosowanaKarta;
-    var czyOdwrocona=wynik.odwrocona;
-    var obrazekKarty=document.getElementById('obrazek');
-
+function wyswietlKarte(wynik) {
+    const karta = wynik.wylosowanaKarta;
+    const czyOdwrocona = wynik.odwrocona;
+    
+    const obrazekKarty = document.getElementById('obrazek');
     const wyswietlacz = document.getElementById('wyswietl');
     const tekstStartowy = document.getElementById('start');
-    if (tekstStartowy) {
-        tekstStartowy.remove(); 
-    }
-    if(wyswietlacz){
-        wyswietlacz.style.display='block';
-    }
-    document.getElementById('NazwaEng').innerText=karta.NazwaEng;
-    document.getElementById('opis').innerHTML="<strong>Opis: </strong>"+karta.opis
-    if(obrazekKarty){
-        obrazekKarty.src="karty/"+karta.obrazek;
-    }
-    if(czyOdwrocona){
-        document.getElementById('znaczenie').innerHTML="<strong>Znaczenie: </strong>"+karta.znaczenie_odw;
-        obrazekKarty.style.transform="rotate(180deg)";
-        document.getElementById('NazwaEng').innerText=karta.NazwaEng+"- Odwrócona";
-    }
-    else{
-        document.getElementById('znaczenie').innerHTML="<strong>Znaczenie: </strong>"+karta.znaczenie_góra;
-        obrazekKarty.style.transform="rotate(0deg)";
-    }
-    document.getElementById('tlumaczenie').innerHTML=karta.tlumaczenie;
-    document.getElementById('start').innerHTML.remove;
+
+    // Ukrywamy tekst startowy i pokazujemy kartę
+    if (tekstStartowy) tekstStartowy.style.display = 'none';
+    if (wyswietlacz) wyswietlacz.style.display = 'block';
+
+    // Wypełniamy dane
+    document.getElementById('NazwaEng').innerText = czyOdwrocona ? karta.NazwaEng + " - Odwrócona" : karta.NazwaEng;
+    document.getElementById('opis').innerHTML = "<strong>Opis: </strong>" + karta.opis;
     
-    
+    const znaczenieEl = document.getElementById('znaczenie');
+    if (znaczenieEl) {
+        znaczenieEl.innerHTML = "<strong>Znaczenie: </strong>" + (czyOdwrocona ? karta.znaczenie_odw : karta.znaczenie_góra);
+    }
+
+    if (obrazekKarty) {
+        obrazekKarty.src = "karty/" + karta.obrazek;
+        obrazekKarty.style.transform = czyOdwrocona ? "rotate(180deg)" : "rotate(0deg)";
+    }
+
+    const tlumaczenieEl = document.getElementById('tlumaczenie');
+    if (tlumaczenieEl) tlumaczenieEl.innerHTML = karta.tlumaczenie || "";
 }
