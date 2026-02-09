@@ -16,7 +16,7 @@ async function generuj() {
             document.getElementById('js-wstep').innerText = karta.wstep;
             document.getElementById('js-znaczenie').innerText = karta.znaczenie;
 
-            document.getElementById('obrazek').src = "karty/" + karta.image.replace('../', '');
+            document.getElementById('obrazek').src = karta.image.replace();
             document.getElementById('obrazek').alt = karta.polishName;
 
             const lista = document.getElementById('js-symbolika');
