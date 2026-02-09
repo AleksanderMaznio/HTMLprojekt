@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+main{
+    flex:1;
+}
 header {
     background-color: #050508; 
     padding: 20px 0;
@@ -39,14 +42,19 @@ nav a:hover {
 header h1{
     font-family: 'Cinzel',serif;
 }
-body{background-color: rgb(37, 11, 61);
-color: #d4af37;
-font-family: 'Lora', serif;
-background-image: url(gwiazdki.png) ;
-background-repeat: repeat;
-background-attachment: fixed;
-background-size: auto;
-background-blend-mode:overlay;
+html,body{
+    height: 100%;
+    margin: 0;
+}
+body{display: flex;
+    flex-direction: column;
+    background-color: rgb(37, 11, 61);
+    color: #d4af37;
+    font-family: 'Lora', serif;
+    background-image: url(gwiazdki.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
 
 }
 
@@ -172,36 +180,18 @@ main section:first-of-type {
 
 
 @media (max-width: 768px) {
-   @media (max-width: 768px) {
-    .karta-layout {
+    .filary {
         flex-direction: column; 
         align-items: center;    
-        text-align: center;     
-        gap: 20px;
+        gap: 40px;             
+        padding: 40px 20px;
     }
 
-    .karta-foto {
-        flex: 0 0 auto;
-        width: 100%;            
-        display: flex;          
-        justify-content: center; 
-        margin: 0 auto;        
-    }
-
-    #obrazekKarty {
-        width: 200px;          
-        max-width: 80%;         
-        height: auto;
-        margin: 0 auto;         
-        display: block;
-    }
-
-    .karta-dane {
-        width: 100%;           
-        padding: 0 10px;        
+    .filar {
+        max-width: 300px;       
     }
 }
-}
+
 footer {
     background-color: #1a1a1a; 
     color: #d4af37; 
