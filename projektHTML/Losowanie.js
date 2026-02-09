@@ -20,11 +20,11 @@ function wyswietlKarte(wynik) {
     const wyswietlacz = document.getElementById('wyswietl');
     const tekstStartowy = document.getElementById('start');
 
-    // Ukrywamy tekst startowy i pokazujemy kartę
+
     if (tekstStartowy) tekstStartowy.style.display = 'none';
     if (wyswietlacz) wyswietlacz.style.display = 'block';
 
-    // Wypełniamy dane
+ 
     document.getElementById('NazwaEng').innerText = czyOdwrocona ? karta.NazwaEng + " - Odwrócona" : karta.NazwaEng;
     document.getElementById('opis').innerHTML = "<strong>Opis: </strong>" + karta.opis;
     
